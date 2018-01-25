@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5F3E188B20189573003A41B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E188A20189573003A41B5 /* main.m */; };
+		5F3E189C2018973C003A41B5 /* XFSortAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E189B2018973C003A41B5 /* XFSortAlgorithm.c */; };
+		5F3E18A32019A395003A41B5 /* XFFindAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18A22019A395003A41B5 /* XFFindAlgorithm.c */; };
+		5F3E18A72019A54C003A41B5 /* XFOtherCommomAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18A62019A54C003A41B5 /* XFOtherCommomAlgorithm.c */; };
+		5F3E18AE2019A844003A41B5 /* XFNodeAlgorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E18AD2019A844003A41B5 /* XFNodeAlgorithm.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		5F3E188720189573003A41B5 /* XFCommonAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XFCommonAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3E188A20189573003A41B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F3E189A2018973C003A41B5 /* XFSortAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFSortAlgorithm.h; sourceTree = "<group>"; };
+		5F3E189B2018973C003A41B5 /* XFSortAlgorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XFSortAlgorithm.c; sourceTree = "<group>"; };
+		5F3E18A12019A395003A41B5 /* XFFindAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFFindAlgorithm.h; sourceTree = "<group>"; };
+		5F3E18A22019A395003A41B5 /* XFFindAlgorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XFFindAlgorithm.c; sourceTree = "<group>"; };
+		5F3E18A52019A54C003A41B5 /* XFOtherCommomAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFOtherCommomAlgorithm.h; sourceTree = "<group>"; };
+		5F3E18A62019A54C003A41B5 /* XFOtherCommomAlgorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XFOtherCommomAlgorithm.c; sourceTree = "<group>"; };
+		5F3E18AC2019A844003A41B5 /* XFNodeAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFNodeAlgorithm.h; sourceTree = "<group>"; };
+		5F3E18AD2019A844003A41B5 /* XFNodeAlgorithm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XFNodeAlgorithm.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,48 @@
 			isa = PBXGroup;
 			children = (
 				5F3E188A20189573003A41B5 /* main.m */,
+				5F3E18A82019A808003A41B5 /* XFNodeAlgorithm */,
+				5F3E18A42019A53F003A41B5 /* XFOtherCommomAlgorithm */,
+				5F3E18A02019A378003A41B5 /* XFFindAlgorithm */,
+				5F3E18912018958D003A41B5 /* XFSortAlgorithm */,
 			);
 			path = XFCommonAlgorithm;
+			sourceTree = "<group>";
+		};
+		5F3E18912018958D003A41B5 /* XFSortAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E189A2018973C003A41B5 /* XFSortAlgorithm.h */,
+				5F3E189B2018973C003A41B5 /* XFSortAlgorithm.c */,
+			);
+			path = XFSortAlgorithm;
+			sourceTree = "<group>";
+		};
+		5F3E18A02019A378003A41B5 /* XFFindAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18A12019A395003A41B5 /* XFFindAlgorithm.h */,
+				5F3E18A22019A395003A41B5 /* XFFindAlgorithm.c */,
+			);
+			path = XFFindAlgorithm;
+			sourceTree = "<group>";
+		};
+		5F3E18A42019A53F003A41B5 /* XFOtherCommomAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18A52019A54C003A41B5 /* XFOtherCommomAlgorithm.h */,
+				5F3E18A62019A54C003A41B5 /* XFOtherCommomAlgorithm.c */,
+			);
+			path = XFOtherCommomAlgorithm;
+			sourceTree = "<group>";
+		};
+		5F3E18A82019A808003A41B5 /* XFNodeAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E18AC2019A844003A41B5 /* XFNodeAlgorithm.h */,
+				5F3E18AD2019A844003A41B5 /* XFNodeAlgorithm.c */,
+			);
+			path = XFNodeAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3E18A72019A54C003A41B5 /* XFOtherCommomAlgorithm.c in Sources */,
 				5F3E188B20189573003A41B5 /* main.m in Sources */,
+				5F3E18A32019A395003A41B5 /* XFFindAlgorithm.c in Sources */,
+				5F3E18AE2019A844003A41B5 /* XFNodeAlgorithm.c in Sources */,
+				5F3E189C2018973C003A41B5 /* XFSortAlgorithm.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
